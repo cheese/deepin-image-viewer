@@ -1,5 +1,5 @@
 Name:           deepin-image-viewer
-Version:        5.6.3.47
+Version:        5.6.3.73
 Release:        1%{?dist}
 Summary:        Deepin Image Viewer
 License:        GPLv3
