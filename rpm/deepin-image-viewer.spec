@@ -29,10 +29,10 @@ BuildRequires:  pkgconfig(xcb-util)
 BuildRequires:  pkgconfig(xext)
 BuildRequires:  pkgconfig(gio-qt)
 BuildRequires:  udisks2-qt5-devel
-BuildRequires:  qt5-qtbase-private-devel
-%{?_qt5:Requires: %{_qt5}%{?_isa} = %{_qt5_version}}
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
+BuildRequires:  qt5-qtbase-private-devel
+BuildRequires:  make
 Requires:       hicolor-icon-theme
 
 %description
